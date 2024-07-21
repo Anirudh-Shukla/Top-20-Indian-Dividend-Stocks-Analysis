@@ -1,8 +1,7 @@
 # Top 20 Indian Dividend Stocks Analysis
 
-## Project Overview
-
-This project aims to identify the top 20 dividend-paying companies in India for long-term investment. Using data analysis techniques, we evaluate and rank companies based on their dividend yield, consistency, and financial health. The analysis provides valuable insights for investors looking to build a portfolio with steady and reliable dividend income.
+## Project Overview:
+The project aims to identify the top 20 dividend-paying companies in India suitable for long-term investment using data analysis techniques in Python.
 
 ## Table of Contents
 
@@ -14,35 +13,25 @@ This project aims to identify the top 20 dividend-paying companies in India for 
 - [Conclusion](#conclusion)
 - [Contributing](#contributing)
 
-## Introduction
+## Introduction:
+The objective is to assess the performance and consistency of dividend payments, evaluate the overall financial health of companies, and analyze their risk-return profiles using historical financial data.
 
-Dividend-paying companies are attractive for long-term investors seeking steady income and potential capital appreciation. This project uses data analysis techniques to identify and rank the top 20 dividend-paying companies in India, considering factors such as dividend yield, payout ratio, and historical performance.
+## Data Sources:
+Historical stock prices and dividend data for 50 companies listed on the Nifty 500 index were collected using the yfinance library. The data covers 5 years.
 
-## Data Sources
+## Data Processing:
+1. Data cleaning involves handling missing values and preparing the data for analysis.
+2. Descriptive statistics were calculated, including mean, median, standard deviation, and dividend yield.
+3. Visualizations were created using matplotlib and seaborn libraries.
 
-The analysis is based on data from reliable financial data providers, including:
+## Analysis Methodology:
+1. Performance metrics such as total returns and annualized returns were calculated.
+2. Risk was assessed using standard deviation.
+3. The Sharpe ratio was used as a risk-adjusted performance measure.
+4. A ranking system was developed based on criteria including dividend yield and Sharpe ratio.
+5. Companies were analyzed for their dividend consistency, financial health, and risk-return profiles.
 
-- Stock price data
-- Dividend payout history
-- Financial statements
-
-## Data Processing
-
-The data processing steps involve:
-
-1. **Data Collection:** Gathering raw data from various financial data sources.
-2. **Data Cleaning:** Handling missing values, duplicates, and inconsistent data.
-3. **Data Transformation:** Calculating relevant metrics such as dividend yield and payout ratio.
-4. **Feature Engineering:** Creating additional features to enhance the analysis.
-
-## Analysis Methodology
-
-The analysis methodology includes:
-
-1. **Descriptive Analysis:** Summarizing key metrics such as average dividend yield and payout ratios.
-2. **Ranking Criteria:** Developing a scoring system based on dividend yield, consistency, and financial health.
-3. **Top 20 Selection:** Identifying the top 20 companies based on the ranking criteria.
-4. **Visualization:** Creating charts and graphs to illustrate the findings.
+This structured approach ensures a transparent and reproducible analysis, providing valuable insights for long-term investment decisions in dividend-paying Indian companies.
 
 ## Results
 
