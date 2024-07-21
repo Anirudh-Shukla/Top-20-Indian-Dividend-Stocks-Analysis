@@ -46,7 +46,7 @@ The analysis methodology includes:
 
 ## Results
 
-The results section presents the top 20 dividend-paying companies in India and detailed metrics and visualizations to support the findings. Each company's performance is analyzed and discussed to provide a comprehensive understanding of its dividend-paying potential.
+![image](https://github.com/user-attachments/assets/cbdb3c8f-c243-4529-9ecd-24e273b4f0aa)
 
 ## Conclusion
 
